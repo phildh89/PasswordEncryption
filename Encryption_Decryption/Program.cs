@@ -194,6 +194,7 @@ namespace Encryption_Decryption
                 if (index == key.Length)
                 {
                     key = decryptedMessage;
+                    //starts iteration for index once
                     index = (firstLoop == false) ? 0 : index;
                     firstLoop = (firstLoop == false) ? true : true;
                 }
